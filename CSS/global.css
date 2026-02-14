@@ -1,0 +1,90 @@
+:root {
+    --bg-color: rgba(0, 0, 0, 0.7);
+    --main-color: #f1b601;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f2027;
+    background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Dancing Script", cursive
+}
+
+.font-dancing {
+    font-family: "Dancing Script", cursive;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+a.btn {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    letter-spacing: 1.5px;
+    position: relative;
+    overflow: hidden;
+    font-weight: 500;
+    padding: 8px 24px;
+}
+
+a.btn:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+a.btn:hover:before {
+    left: 0;
+}
+
+a.btn:hover span.text {
+    position: relative;
+    z-index: 2;
+    transition-duration: 1s;
+}
+
+a.btn:hover span.text {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+.header .line {
+    display: flex;
+    justify-content: center;
+}
+
+.header .line:before,
+.header .line:after {
+    content: "";
+    display: block;
+    width: 5%;
+    height: 2px;
+    background-color: #fff;
+    align-self: center;
+}
