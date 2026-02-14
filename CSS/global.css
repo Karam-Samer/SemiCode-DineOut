@@ -86,6 +86,10 @@ p {
     color: #fff;
 }
 
+.header h4 {
+    color: var(--main-color);
+}
+
 .header .line {
     display: flex;
     justify-content: center;
