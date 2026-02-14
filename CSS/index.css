@@ -375,7 +375,7 @@ header nav.navbar .offcanvas.show+button span:nth-of-type(3) {
 
 #carouselExampleAutoplaying .carousel-inner .carousel-item:nth-of-type(2).active .content .part2 img {
     transition-duration: 1s;
-    top: 0;
+    top: 0%;
     animation-play-state: running;
 }
 
@@ -1029,3 +1029,12 @@ header nav.navbar .offcanvas.show+button span:nth-of-type(3) {
 footer {
     background-color: #333;
 }
+
+#ToastSubscribe{
+background-color: #333;
+position: fixed;
+bottom: 10px;
+right: 20px;
+z-index: 10000;
+}
+

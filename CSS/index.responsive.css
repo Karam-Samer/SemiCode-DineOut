@@ -93,9 +93,27 @@
         overflow: auto;
     }
 
+    #Team .row .item {
+        max-width: 280px;
+        margin: auto;
+    }
+
+    #Team .row .chef:not(:last-child) .item {
+        margin-bottom: 70px;
+    }
+
     #Order .form-container .item {
         width: 100%;
         padding: 20px 25px;
+    }
+
+
+    #ToastSubscribe {
+        width: 70%;
+    }
+
+    #ToastSubscribe .toast-body .input-group button {
+        padding: 5px;
     }
 
 }
@@ -132,6 +150,14 @@
     .header .line:before,
     .header .line:after {
         width: 10%;
+    }
+
+    #ToastSubscribe {
+        width: initial;
+    }
+
+    #ToastSubscribe .toast-body .input-group button {
+        padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
     }
 }
 
