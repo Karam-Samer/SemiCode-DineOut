@@ -3332,7 +3332,39 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn d-block w-100"><span class="text">Order</span></button>
+                                <a class="btn d-block w-100" data-bs-toggle="modal" data-bs-target="#Payment"><span
+                                        class="text">Order</span></a>
+                                <div class="modal" tabindex="-1" id="Payment">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Payment</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-center " style="color: var(--main-color);">Visa Payment</p>
+                                                <div class="input-group mb-3 border-danger-subtle">
+                                                    <input type="text" class="form-control" placeholder="Card Number"
+                                                        aria-label="Card Number" aria-describedby="button-addon2">
+                                                </div>
+                                                <div class="input-group mb-3 border-danger-subtle">
+                                                    <input type="text" class="form-control" placeholder="MM/YY"
+                                                        aria-label="MM/YY" aria-describedby="button-addon2">
+                                                </div>
+                                                <div class="input-group mb-3 border-danger-subtle">
+                                                    <input type="text" class="form-control" placeholder="CVV"
+                                                        aria-label="CVV" aria-describedby="button-addon2">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal"><span class="text">Close</span></button>
+                                                <button type="button" class="btn btn-primary"><span class="text">Pay Now</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </form>
                     </div>
                 </div>
